@@ -1,0 +1,9 @@
+# Package names follow imports in the supplied source; versions are not pinned.
+numpy
+pandas
+torch
+fair-esm
+scikit-learn
+scipy
+matplotlib
+openai

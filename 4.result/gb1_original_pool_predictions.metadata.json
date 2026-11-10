@@ -1,0 +1,13 @@
+{
+  "schema": "gb1-training-background-1",
+  "sequence_template": "MQYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+  "prediction_sha256": "2b6143fe776563abbbf3d71a5d843c392efdd683cbd26f61c77ab022e6decf04",
+  "checkpoint_sha256": "3d54e363f8e287e70f30d2dda4f273faf9ff1dccf39884b54457995794bb4a57",
+  "esm_name": "esm2_t33_650M_UR50D",
+  "positions": [
+    39,
+    40,
+    41,
+    54
+  ]
+}

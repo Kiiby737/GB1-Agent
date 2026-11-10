@@ -1,0 +1,10 @@
+{
+  "method": "uniform_without_replacement_from_eligible_predicted_pool",
+  "n_initial": 20,
+  "seed": 114514,
+  "eligible_pool_count": 146620,
+  "m0_training_label_source": "/mnt/disk2/shiming/project/ZJU_agent_project/ver4.7/2.train/hybrid_30_40_30_r9/M0_AL_labeled.csv",
+  "held_out_source": "/mnt/disk2/shiming/project/ZJU_agent_project/ver4.7/4.result/flip_test_variants.csv",
+  "oracle_used_only_for_selected_initial_variants": true,
+  "both_knowledge_modes_share_this_initial_set": true
+}

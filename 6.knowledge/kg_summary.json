@@ -1,0 +1,23 @@
+{
+  "known_variants": 996,
+  "node_count": 12736,
+  "edge_count": 70696,
+  "matched_single_site_pairs": 1725,
+  "directed_single_site_pairs": 3450,
+  "mutation_combination_memberships": 8799,
+  "epistasis_interactions": 840,
+  "node_types": {
+    "AminoAcid": 20,
+    "Property": 9,
+    "Position": 4,
+    "MutationRule": 7,
+    "Variant": 996,
+    "FitnessObservation": 996,
+    "Mutation": 76,
+    "MutationCombination": 4849,
+    "SequenceContext": 3214,
+    "MeasuredSingleSiteComparison": 1725,
+    "EpistasisInteraction": 840
+  },
+  "output_directory": "/mnt/disk2/shiming/project/ZJU_agent_project/ver4.7/6.knowledge"
+}

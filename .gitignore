@@ -1,0 +1,39 @@
+# Local credentials and environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python / generated feature caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.npy
+*.npz
+*.log
+
+# Keep only the shared experiment inputs under 4.result.
+/4.result/*
+!/4.result/agent_initial_labeled.csv
+!/4.result/agent_initial_metadata.json
+!/4.result/flip_test_variants.csv
+!/4.result/gb1_original_pool_predictions.csv
+!/4.result/gb1_original_pool_predictions.metadata.json
+/4.result_ver*/
+**/round_*/
+**/search_start.json
+**/evolution_summary.csv
+
+# Baseline/comparison trajectories and Agent-derived reports
+/5.test/1.baseline/baselines/
+/5.test/3.failure_analysis/prediction_error_cases.csv
+/5.test/3.failure_analysis/kg_background_cases.csv
+/5.test/4.result_presentation/output/
+
+# OS/editor temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp

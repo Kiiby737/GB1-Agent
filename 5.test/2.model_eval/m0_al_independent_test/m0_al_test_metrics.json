@@ -1,0 +1,41 @@
+{
+  "n_test": 1745,
+  "pearson": 0.8720247455977396,
+  "spearman": 0.8583456860860238,
+  "mse": 0.3522192821093145,
+  "rmse": 0.5934806501557692,
+  "topk": [
+    {
+      "k": 5,
+      "evaluated_k": 5,
+      "topk_overlap_count": 2,
+      "topk_overlap_rate": 0.4
+    },
+    {
+      "k": 10,
+      "evaluated_k": 10,
+      "topk_overlap_count": 8,
+      "topk_overlap_rate": 0.8
+    }
+  ],
+  "sequence_source": "/mnt/disk2/shiming/project/ZJU_agent_project/ver4.9/1.data/sampled.csv",
+  "label_source": "sampled.csv:target",
+  "model_source": "/mnt/disk2/shiming/project/ZJU_agent_project/ver4.9/2.train/hybrid_30_40_30_r9/M0_AL_ensemble.pt",
+  "input_provenance": {
+    "schema": "m0-sampled-test-background-1",
+    "sampled_sha256": "19bcb946fb9f8fe5ac1d5ed0aa85d4a85848b44744560d9684cc278935f3bd16",
+    "training_labels_sha256": "2f086f12cf672e1f2f72308ce91dcb3dc7124f40485f789bb0fd78577da8bfe3",
+    "checkpoint_sha256": "3d54e363f8e287e70f30d2dda4f273faf9ff1dccf39884b54457995794bb4a57",
+    "heldout_ids_sha256": "f3fdd7abaae0aba1e9a7d74ff255ee0d766c1589e00a72b99282b30924fce864",
+    "sequence_sha256": "2715431da47f8f6f5b5a61bf25d99236e8c6af7d50a622a254b0f95e92c92497",
+    "sequence_template": "MQYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+    "n_test": 1745,
+    "esm_name": "esm2_t33_650M_UR50D",
+    "positions": [
+      39,
+      40,
+      41,
+      54
+    ]
+  }
+}
